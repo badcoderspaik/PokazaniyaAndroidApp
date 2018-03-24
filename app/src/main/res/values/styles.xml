@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">#d9cf78</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/brown</item>
+        <item name="android:actionBarStyle" tools:targetApi="11">@style/ActionBar</item>
+    </style>
+	
+	<style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+		<item name="colorAccent">#453403</item>
+		<item name="android:textColorPrimary">#453403</item>
+		<item name="android:background">@color/light_amber</item>
+	</style>
+	
+	<style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+	
+	<style name="VerticalAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_down</item>
+        <item name="android:windowExitAnimation">@anim/slide_up</item>
+    </style>
+	
+	<style name="VerticalRotationAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_down_rotate</item>
+        <item name="android:windowExitAnimation">@anim/slide_up</item>
+    </style>
+	
+	<style name="ScaleRotateAnimation">
+        <item name="android:windowEnterAnimation">@anim/scale_rotate_right</item>
+        <item name="android:windowExitAnimation">@anim/scale_rotate_left</item>
+    </style>
+
+</resources>
